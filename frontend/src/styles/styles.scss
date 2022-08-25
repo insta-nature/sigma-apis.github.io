@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.test{
+  color: #3a34d2;
+}
+
+:root{
+  --primary: #000;
+  --secondary: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  // background: url(../../al-fk.gif)no-repeat center right fixed,
+              // linear-gradient(271deg, var(--primary), 1000px, var(--secondary));
+  /* background-color: #282c34; */
+  background: cover;
+  min-height: 93.7vh;
+  display: flex;
+  justify-content: left;
+}
+
+.svg-icon {
+  position:absolute;
+  display: flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  width: 45px;
+  height: 32px;
+}
+
+.test{
+ color: #3a34d2;
+}

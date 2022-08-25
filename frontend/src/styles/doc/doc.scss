@@ -1,0 +1,165 @@
+:root{
+    --theme-ui-colors-gray: #fff;
+
+}
+
+h1 {
+    font-size: 2.333333em;
+    font-weight: 400;
+    line-height: 0.3;
+}
+.italic {
+    color: #616670;
+    font-style: italic;
+    font-weight: 300;
+}
+
+h1 .label {
+    display: table-cell;
+    vertical-align: middle;
+    /* margin-right: 5px;
+    margin-left: 5px; */
+    padding: 10px;
+}
+
+.lead {
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #616670;
+}
+
+p.note {
+    font-size: 1.2em;
+    line-height: 1.38888889;
+    margin: 0.833333em 0;
+    font-weight: 300;
+    font-style: italic;
+    color: #616670;
+}
+Button.button {
+    padding: 1em;
+    margin: 0em 1em;
+    margin-left: 4.2em;
+}
+
+.center {
+    margin: 0.00001em 2em;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-align: justify
+}
+
+.label.marg {
+    margin: 5px;
+}
+
+h1 .line {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+h1 .line.first {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.heading {
+    font-weight: 300;
+    color: #333;
+    font-size: 2.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub-heading {
+    font-weight: 300;
+    color: #ff8000;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+pre.well {
+    font: 0.923077em 'Source Code Pro', 'Source Sans Pro', Courier, monospace;
+    line-height: 1.5;
+    background: #f5f5f5;
+    color: #333;
+    border: 0.076923em none #bfbfbf;
+    white-space: pre-wrap;
+    word-break: break-word;
+    border-style: solid none;
+    padding: 1.11em 0.5em;
+    margin: -0.416667em -1.25em 1em;
+}
+code {
+    width: 40em;
+}
+
+h4.param {
+    font: 600 1em 'Source Code Pro', 'Source Sans Pro', Courier, monospace;
+    border-bottom: 1px solid #bfbfbf;
+    margin: 1.333333em 0 -0.666667em;
+    padding-bottom: 0.6em;
+}
+
+h4.param::before {
+    content: ' ';
+    display: inline-block;
+    background: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2217%22%20height%3D%2212%22%3E%3Cpath%20fill%3D%22%23ff7e00%22%20d%3D%22M0%204h4v4h-4zM6%204h5v-4l6%206l-6%206v-4h-5z%22%2F%3E%3C%2Fsvg%3E);
+    width: 17px;
+    height: 12px;
+    vertical-align: -0.133333em;
+    margin-right: 0.466667em;
+}
+
+@media only screen and (min-width: 720px){
+    pre.well {
+        border-style: solid;
+        padding: 1.11em 0.5em;
+        margin: -0.416667em 0 1em;
+    }
+}
+
+.css-1s63vs7 table th {
+    color: #67788a;
+}
+
+.css-1s63vs7 table th, .css-1s63vs7 table td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border-bottom: solid 1px var(--theme-ui-colors-border,#67788a);
+    padding: 12px 8px;
+    min-height: 68px;
+}
+
+mark {
+    background-color: #f5f5f5;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.api-button {
+    margin: 9px;
+    padding: 14px;
+}
+
+div.warp-center{
+    text-align: center;
+}
+
+div.bgtheam {
+    background: #333;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0.5em 10em;
+    align-items: center;
+}

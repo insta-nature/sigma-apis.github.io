@@ -1,0 +1,26 @@
+.w-11\/12 {
+    width: 91.666667%;
+}
+.flex {
+    display: flex;
+}
+.mt-40 {
+    margin-top: 10rem;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.border-neutral-ms-grey-100 {
+    --tw-border-opacity: 1;
+    border-color: rgba(231, 230, 230, var(--tw-border-opacity));
+}
+.border-r-2 {
+    border-right-width: 2px;
+}
+.ml-4 {
+    margin-left: 1rem;
+}
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 0;
+}
